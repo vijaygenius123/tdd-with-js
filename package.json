@@ -1,0 +1,30 @@
+{
+  "name": "tdd-with-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha \"src/**/*.test.js\"  --recursive --require @babel/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vijaygenius123/tdd-with-js.git"
+  },
+  "keywords": [],
+  "author": "Vijayaraghavan Sundararaman <vijaygenius123@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vijaygenius123/tdd-with-js/issues"
+  },
+  "homepage": "https://github.com/vijaygenius123/tdd-with-js#readme",
+  "devDependencies": {
+    "@babel/core": "7.10.4",
+    "@babel/preset-env": "7.10.4",
+    "@babel/register": "7.10.4",
+    "chai": "4.2.0",
+    "mocha": "8.0.1"
+  },
+  "dependencies": {
+    "lodash": "4.17.15"
+  }
+}
